@@ -23,4 +23,4 @@ mkdir _build/
 jupyter-book build ${REPO}
 
 # Copy slides inside _build/html
-# cp -R ../slides ./_build/html
+# cp -R index.html ./_build/html/

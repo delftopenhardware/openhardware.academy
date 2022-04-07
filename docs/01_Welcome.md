@@ -1,13 +1,40 @@
 
-# Open Hardware Academy Programme
+# Open Hardware Academy 🚀
+![hardware image](img/banner.png)
+From the **8th of August until the 14th of October 2022** the Delft Open Hardware community will organize its first round of the Open Hardware Academy cohort!
 
-From the **8th of August until the 14th of October 2022** the Delft Open Hardware community will organize its first round of the Open Hardware Academy!
 In this 10 week programme we will help you open up your project to the world. We do this with tips and tricks from our experience, and by simple assignments that help your project to be ready for contributions.
 
-We are convinced that open source can be a promising approach for your project if you are aiming to impact society with technology. Throughout this program we want to help you take advantage of open source design and development practices, techniques and philosophy to translate ideas and prototypes into open hardware projects.
+````{panels}
+:container: +full-width text-center
+:column: col-lg-6 px-2 py-2
+:card:
+:header: text-center
+
+**Design for open source 👍**
+^^^
+When you design for open source you adopt an iterative and progressive approach. You design for contributors, peers and users and enable them to contribute an give feedback.
+---
+
+**A programme design for flexibility 🕐**
+^^^
+Even if you can't join the 10 weeks programme, it is setup in such a way that you can still join the community chat and use part of the content of the programme, or do the exercises in a different time.
+---
+
+**Exercises and lessons ✏️**
+^^^
+We provide exercises and lessons created from community members. Each set of exercises are focused on different levels of skills and knowledge areas.
+---
+**Community focused 🌈**
+^^^
+Are you interested in contributing with new materials? Perhaps organizing a seminar or designing a lesson on a specific technical topic? You can!
+````
 
 ## Layout of the programme
 Yes we will touch upon technical things such as 3D printing, PCB design, documentation and licensing, coding, etc, but there is more. **By the end of this program you should be able to do a first release to the public of your open source project!**
+
+:::{admonition} What will happen during the programme
+:class: tip full-width
 
 * We will help you to work towards a first increment (a publishable and reusable outcome). This can be a first foundational component or prototype for example. We also call this an iteration. This iteration involves several aspects that go from design to documentation.
 * We show you an approach to designing and developing for open hardware with exercises where designing and testing is at the center. 
@@ -16,7 +43,7 @@ Yes we will touch upon technical things such as 3D printing, PCB design, documen
 * We discuss and address the different exercises on a weekly basis in collaboration with other fellows that join the program and learn from each other's projects.
 * We will host open discussions on the proposed topics, exercises and materials to exchange views on open hardware
 
-
+:::
 
 
 ### Example projects that would fit
