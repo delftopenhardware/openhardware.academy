@@ -1,0 +1,6 @@
+root: 01_Welcome
+entries:
+- file: 01_Introduction/01_README
+  entries:
+  - file: 01_Introduction/02_Motivation
+
