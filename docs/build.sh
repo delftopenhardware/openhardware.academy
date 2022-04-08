@@ -22,5 +22,6 @@ mkdir _build/
 # Build html
 jupyter-book build ${REPO}
 
-# Copy slides inside _build/html
-# cp -R index.html ./_build/html/
+# Make CNAME for github pages
+cd _build/html
+touch CNAME
