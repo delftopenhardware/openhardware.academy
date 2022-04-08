@@ -11,13 +11,14 @@ exclude_patterns: [ /images/**.*,./**/*.py, ./**/*.jpg, LICENSE.md ]
 
 # Information about where the book exists on the web
 repository:
-  url  : https://github.com/TU-Delft-DCC/TU-Delft-DCC.github.io.git
+  url  : https://github.com/delftopenhardware/openhardware.academy
 
 html:
+  announcement: "My announcement!"
   use_repository_button: true
   comments:
     utterances:
-      repo: "TU-Delft-DCC/TU-Delft-DCC.github.io.git" 
+      repo: "delftopenhardware/openhardware.academy.git" 
     
   use_edit_page_button: true
 

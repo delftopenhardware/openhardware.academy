@@ -1,6 +1,10 @@
 root: 01_Welcome
 entries:
-- file: 01_Introduction/01_README
-  entries:
-  - file: 01_Introduction/02_Motivation
+- file: 02_Programme_details
+- file: 03_Participation
+- file: 04_Partner_up
+- file: 05_Organizers
+- file: 06_Background
+- file: 07_Model
+- file: 08_Help
 
