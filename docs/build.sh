@@ -23,5 +23,5 @@ mkdir _build/
 jupyter-book build ${REPO}
 
 # Make CNAME for github pages
-cd _build/html
-touch CNAME
+cp docs/CNAME _build/html
+ 
