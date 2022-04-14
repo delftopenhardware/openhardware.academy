@@ -1,7 +1,7 @@
 # in _config.yml
 title: "Open Hardware Academy"
 logo: img/logo.png
-author: TU Delft DCC
+author: Open Hardware Academy
 execute:
   execute_notebooks: "off"
 
