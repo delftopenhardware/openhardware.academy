@@ -1,6 +1,6 @@
 # Sample lessons
 This is to give you a flavor of how open hardware academy has been developing.
-![hardware illustration](img/banner_2.png)
+![hardware illustration](img/jpg/banner_2.jpg)
 ## These are some examples of lessons we have developed collectively in Delft (2021-2022)
 - [Delft RaspberryPi HPC workshop notes, 1 October 2021](https://hackmd.io/Vemik7JuS_Cep_fd1WwiHA?both)
 - [Making a printed circuit board](https://hackmd.io/85Cdetu7QSOCASA0xeXMqQ?view)

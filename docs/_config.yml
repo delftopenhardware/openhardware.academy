@@ -1,6 +1,6 @@
 # in _config.yml
 title: "Open Hardware Academy"
-logo: img/logo.png
+logo: img/jpg/logo.jpg
 author: Open Hardware Academy
 execute:
   execute_notebooks: "off"
@@ -25,7 +25,7 @@ html:
   use_edit_page_button: true
 
   extra_footer: |
-      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.jpg" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
   
   
   

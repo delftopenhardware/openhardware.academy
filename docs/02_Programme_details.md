@@ -1,5 +1,5 @@
 # Programme details 
-![hardware illustration](img/banner_01.png)
+![hardware illustration](img/jpg/banner_01.jpg)
 Yes we will touch upon technical things such as 3D printing, PCB design, documentation and licensing, coding, etc, but there is more. **By the end of this program you should be able to do a first release to the public of your open source project!**
 
 ````{panels}

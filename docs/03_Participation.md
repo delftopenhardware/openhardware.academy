@@ -1,5 +1,5 @@
 # Participation 
-![hardware illustration](img/banner_2.png)
+![hardware illustration](img/jpg/banner_2.jpg)
 
 ## Who can participate?
 No matter if you are working on a small or a big project, joining the Open Hardware Academy helps you to understand the mechanics of open and collaborative working. In the 10 weeks you will learn about project management, documentation, community building, prototyping and licenses. By the way, did we tell you it’s free?

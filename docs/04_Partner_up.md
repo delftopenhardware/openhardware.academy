@@ -1,5 +1,5 @@
 # How to help and partner up
-![hardware illustration](img/banner_01.png)
+![hardware illustration](img/jpg/banner_01.jpg)
 ## How to help out
 - Mentor a chat channel for a week on a topic you feel you have experience (example)
 ---

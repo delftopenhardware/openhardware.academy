@@ -1,6 +1,6 @@
 
 # Open Hardware Academy 🚀
-```{image} img/banner.png
+```{image} img/jpg/banner.jpg
 :alt: hardware illustration
 :align: center
 :width: 90%
