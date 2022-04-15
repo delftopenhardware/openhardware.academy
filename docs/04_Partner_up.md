@@ -8,6 +8,7 @@
 - Present a seminar we help you co-hosting and organizing it
 ---
 
+You can [write us an email](./05_Organizers.md)
 
 ## Why to partner up?
 ### Lets join forces! 💪
