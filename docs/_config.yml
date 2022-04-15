@@ -12,9 +12,11 @@ exclude_patterns: [ /images/**.*,./**/*.py, ./**/*.jpg, LICENSE.md ]
 # Information about where the book exists on the web
 repository:
   url  : https://github.com/delftopenhardware/openhardware.academy
+  branch: master
+  path_to_book: docs
 
 html:
-  announcement: "My announcement!"
+  # announcement: "My announcement!"
   use_repository_button: true
   comments:
     utterances:

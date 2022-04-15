@@ -6,5 +6,12 @@ This first round of Open Hardware Academy is organized by Delft Open Hardware co
 - PhD. Data Steward with a background in Mechanical Engineering: Santosh Ilamparuthi
 - Delft Open Hardware community members and helpers
 
-![tudelftlogo](TU_delft_logo.png)
-![delftopenhardware](delftopenharwdare.png)
+```{image} ./img/TU_delft_logo.png
+:alt: tu delft logo
+:width: 200px
+```
+```{image} ./img/doh_logo.png
+:alt: delft open hardware logo
+:width: 150px
+:align: right
+```

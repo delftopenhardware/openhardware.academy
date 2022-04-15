@@ -1,5 +1,5 @@
 # Programme details 
-![](img/banner_01.png)
+![hardware illustration](img/banner_01.png)
 Yes we will touch upon technical things such as 3D printing, PCB design, documentation and licensing, coding, etc, but there is more. **By the end of this program you should be able to do a first release to the public of your open source project!**
 
 ````{panels}
@@ -46,19 +46,45 @@ We envision that many actors can benefit from this. From established projects lo
 * We will host open discussions on the proposed topics, exercises and materials to exchange views on open hardware
 :::
 
-## Example projects that would fit
-* A Raspberry Pi microscope
-* Sewing project
-* Woodworking project
+## Example projects
+### More complex hardware projects
+* Remixing open hardware projects that can be improved or extended
 * Circular solar panel
 * A plastic scanner
-* A board game
-* Internet sensor
-* Origami model
-* DIY keyboard
-* Bed light
-* Chair
+* A Raspberry Pi microscope
+* Chair 
+* A robot
 
-```{admonition} Excited?
+### Simple hardware projects
+* Contributing to a component or element of a complex hardware project
+* Origami model
+* A board game
+* DIY keyboard
+* Simple DIY Bed light
+* Sewing project
+* Simple woodworking project
+* Simple IoT projects
+
+:::{admonition} Looking for more inspiration? 
+Here are some ideas 😃
+
+- There are interesting projects in [Hackaday](https://hackaday.com/).
+Many of these projects are amazing and advanced hacks, and they might benefit from turning them into a more robust/reproducible open hardware design. Instead of starting from scratch you could partner up and contribute to existing projects.
+
+---
+- What if you make scientific equipment or scientific setup open source?
+What if you take existing open harwdare equipment that you like and improve it?
+[Read more about it](https://www.appropedia.org/Open-source_Lab)
+
+---
+- What if old phones could be reused as computers for hardware projects and their lifes could be extended?
+---
+- What if interesting hacks could be turned into a reproducible piece of hardware?
+[Read more about it](https://hackaday.com/2017/11/18/ds212-oscilloscope-review-open-source-and-great-for-hacking/)
+
+
+:::
+
+:::{admonition} Excited?
 Read the [participation criteria](03_Participation.md)
-```
+:::
