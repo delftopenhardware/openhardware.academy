@@ -20,7 +20,7 @@ html:
   use_repository_button: true
   comments:
     utterances:
-      repo: "delftopenhardware/openhardware.academy.git" 
+      repo: "delftopenhardware/openhardware.academy" 
     
   use_edit_page_button: true
 
