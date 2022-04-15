@@ -8,6 +8,11 @@ Yes we will touch upon technical things such as 3D printing, PCB design, documen
 :card:
 :header: text-center
 
+**Peer to peer learning 🏁**
+^^^
+You will be assigned to a buddy from other project to workout and discuss exercises along the programme. We will also discuss the exercises during the weeks in plenum. 
+---
+
 **Open source driven learning👍**
 ^^^
 When you design for open source you adopt an iterative and progressive approach. You design for contributors, peers and users and enable them to contribute an give feedback.
