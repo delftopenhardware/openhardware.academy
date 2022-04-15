@@ -31,5 +31,8 @@ We want anyone to be able to join our Open Hardware Academy, you don't need to b
 :class: warning
 Make sure you read the [programme details](02_Programme_details.md)
 ```
+If it is not clear enough and you have other questions [contact us](./05_Organizers.md)
+Or leave us a comment bellow at the end of the page
+
 ## Yes? Ready for the fun? 👇
 <iframe src="https://tudelft.fra1.qualtrics.com/jfe/form/SV_03qx2hUBNFVeicS" width="100%" height="1904" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

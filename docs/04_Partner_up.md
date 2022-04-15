@@ -26,3 +26,5 @@ You can [write us an email](./05_Organizers.md)
 ---
 - **Do you have a startup or initiative? And are yu passionate about open source?** Then this might be a good place to get feedback and find contributors, or partners.
 
+If it is not clear enough and you have other questions [contact us](./05_Organizers.md)
+Or leave us a comment bellow at the end of the page

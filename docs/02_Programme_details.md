@@ -88,3 +88,6 @@ What if you take existing open harwdare equipment that you like and improve it?
 :::{admonition} Excited?
 Read the [participation criteria](03_Participation.md)
 :::
+
+If it is not clear enough and you have other questions [contact us](./05_Organizers.md)
+Or leave us a comment bellow at the end of the page
