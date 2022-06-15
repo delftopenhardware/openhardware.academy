@@ -24,7 +24,7 @@ Even if you can't join the 10 weeks programme, it is setup in such a way that yo
 ---
 **Designed with trainers in mind 📓**
 ^^^
-Are an instructor and teacher you have local needs, and we know our schedule might not fit. But you can reuse the materials and participate in the design of new lessons. [Read more](./04_Partner_up.md)
+As an instructor and teacher you have local needs, and we know our schedule might not fit. But you can reuse the materials and participate in the design of new lessons. [Read more](./04_Partner_up.md)
 ---
 
 **Challenge and project focused ✏️**
