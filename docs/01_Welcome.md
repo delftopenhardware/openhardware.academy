@@ -10,9 +10,10 @@ From the **8th of August until the 14th of October 2022** the Delft Open Hardwar
 In this 10 week programme we will help you open up your project to the world. We do this with tips and tricks from our experience, and by simple assignments that help your project to be ready for contributions.
 
 ---
-To get into the mood and to answer all possible questions about the academy, and findout if its for you we are going to organize a Friday afternoon seminar! The seminar will be on Friday June 24, more info here on how to join:
+To get into the mood and to answer all possible questions about the academy, and findout if its for you we hosted a Friday afternoon seminar! 
+There we answer different questions from practical matters to more conceptual aspects of the program.
 
-https://www.eventbrite.co.uk/e/announcing-the-open-hardware-academy-tickets-351094893277
+**[👉 Pre-launch seminar](https://www.youtube.com/watch?v=wkpVgo1fIpA)**
 
 ```{panels}
 :container: +full-width text-center
