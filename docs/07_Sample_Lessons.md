@@ -8,4 +8,4 @@ This is to give you a flavor of how open hardware academy has been developing.
 ## These are examples of lessons we contributed to in the Open Hardware Leaders programme (2020)
 - [Scope and stage your project](https://openhardware4.me/open-hardware-leaders.github.io/Program/08_Week1.html)
 - [Roadmapping](https://openhardware4.me/open-hardware-leaders.github.io/Program/16_Week9.html)
-- [Building yur project](https://openhardware4.me/open-hardware-leaders.github.io/Program/12_Week5.html)
+- [Building your project](https://openhardware4.me/open-hardware-leaders.github.io/Program/12_Week5.html)

@@ -1,19 +1,19 @@
 # Partner up as an organization
 ![hardware illustration](img/jpg/banner_01.jpg)
 
-Are you an ambassador of Open Hardware in your instituion, a teacher, trainer or researcher that needs to build local capacity around open harwdare development skills? Then consider joining as a partner,
+Are you an ambassador of Open Hardware in your instituion, a teacher, trainer or researcher that needs to build local capacity around open harwdare development skills? 
+
+**Then consider joining as a partner**
 
 ## Why join as a partner
-Joining as a partner on behalf of an organization institution or university brings several benefits.
+Joining as a partner on behalf of an organization institution or university brings several benefits:
 
----
-### Pains we feel we can relieve as a community
+**Pains we feel we can relieve as a community**
 1. You have more projects, activities and ideas than what you can handle on your own.
 2. You need backup from other institutions to showcase the feasibility and relevance of open hardware in science and education in your environment.
 3. You are struggling with a lack of local capacity and/or dedication to tackle hardware related challenges. 
 
----
-### Gains of becoming a partner
+**Gains of becoming a partner**
 1. You take advantage of lessons and resources as well as access to our network of expertise and get more out if it than what you can get on your own.
 2. You can post assignments and projects for potential contributors that want to get through the academy.
 3. You can bring several projects to the programme under the condition that you will be the main contact, chearleader and mentor for these projects. 
