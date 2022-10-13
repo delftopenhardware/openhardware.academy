@@ -4,6 +4,8 @@
 # ipynb
 .ipynb_checkpoints/
 
+_no_*
+
 # ignore binaries
 example.egg-info
 .env/
