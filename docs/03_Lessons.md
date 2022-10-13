@@ -1,4 +1,4 @@
-# Open hardware academy basic lessons
+# Basic Lessons
 
 ## How to make the best of these lessons?
 Try to do the exercises in the lessons. If you get stuck, you can always ask for help in our community channels. These basic lessons are designed to help you get started with the open hardware academy. They are designed to be done in your own time. You can do them in any order, but we recommend you to start with the first one. You can also use them to organize a local workshop. If you do so, please let us know.

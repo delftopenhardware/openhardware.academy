@@ -1,5 +1,6 @@
 ```{Note}
-The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact.
+The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact. You can also comment at the end of this page. :point_down:
+
 ```
 
 # Participation 
