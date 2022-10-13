@@ -6,7 +6,11 @@
 :width: 90%
 ```
 ```{Note}
-The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact.
+**The first cohort of the open hardware academy from 8th of August until the 14th of October 2022 is finished**. 
+
+Special thanks for all the participants and helpers
+
+We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact.
 ```
 The Open Hardware Academy is originally conceived as a 10-week program that helps you to develop your own open hardware project. In the 10 weeks participants have learned about project management, documentation, community building, prototyping and licenses for open hardware among other topics. **By the way, did we tell you it’s free?**
 
