@@ -6,6 +6,11 @@ The first cohort of the open hardware academy from 8th of August until the 14th 
 # Participation 
 ![hardware illustration](img/jpg/banner_2.jpg)
 
+```{admonition} Our first call has closed
+:class: warning
+## Our call for applications has been closed on Friday 5th of August 2022 
+```
+
 ## Who can participate?
 No matter if you are working on a small or a big project, joining the Open Hardware Academy helps you to understand the mechanics of open and collaborative working. In the 10 weeks you will learn about project management, documentation, community building, prototyping and licenses. By the way, did we tell you it’s free?
 
@@ -39,5 +44,4 @@ Make sure you read the [programme details](02_Programme_details.md)
 If it is not clear enough and you have other questions [contact us](./05_Organizers.md)
 Or leave us a comment bellow at the end of the page
 
-## Yes? Ready for the fun? 👇
-<iframe src="https://tudelft.fra1.qualtrics.com/jfe/form/SV_03qx2hUBNFVeicS" width="100%" height="1904" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+

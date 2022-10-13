@@ -6,7 +6,7 @@ We value the involvement of everyone in the community. We are committed to creat
 To make clear what is expected, everyone participating in Open Hardware Academy activities is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces managed by Open Hardware Academy including, but not limited to, workshops, email lists, and online forums such as Discord, GitHub, and Twitter.
 The organisers of the Open Hardware Academy are responsible for enforcing the Code of Conduct. They can be contacted by emailing delftopenhardware@gmail.com. 
 
-## Part 2. The Carpentries Code of Conduct
+## Part 2. The Open Hardware Academy code of Conduct
 The Open Hardware Academy is dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behaviour that is either disrespectful to our mentors, participants or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 Everyone who participates in the Open Hardware Academy activities is required to conform to this Code of Conduct. It applies to all spaces managed by Open Hardware Academy including, but not limited to, workshops, email lists, and online forums such as Discord, GitHub and Twitter. 
 
