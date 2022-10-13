@@ -5,9 +5,22 @@
 :align: center
 :width: 90%
 ```
-From the **8th of August until the 14th of October 2022** the Delft Open Hardware community will organize its first round of the Open Hardware Academy cohort!
+```{Note}
+The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact.
+```
+The Open Hardware Academy is originally conceived as a 10-week program that helps you to develop your own open hardware project. In the 10 weeks participants have learned about project management, documentation, community building, prototyping and licenses for open hardware among other topics. **By the way, did we tell you it’s free?**
 
-In this 10 week programme we will help you open up your project to the world. We do this with tips and tricks from our experience, and by simple assignments that help your project to be ready for contributions.
+---
+Take a look at our [introductory lessons](./07_Lessons.md) with exercises.
+
+We have designed the lessons in such a way that you can do them in your own time. 
+
+We have also developed complementary technical lessons to develop your skills in the field of open hardware.
+
+
+---
+From the **8th of August until the 14th of October 2022** the Delft Open Hardware community organized its first round of the Open Hardware Academy cohort!
+
 
 ---
 To get into the mood and to answer all possible questions about the academy, and findout if its for you we hosted a Friday afternoon seminar! 
