@@ -1,4 +1,4 @@
-# Contribute to openhardware.academy
+# Contribute 
 Here are different ways in which you can contribute to the Open Hardware Academy.
 1. **Join the Open Hardware Academy coming self paced edition**. We are always looking for new participants to test our self paced program, earn a certificate and give us feedback.
 
