@@ -61,9 +61,3 @@ An open source graduation project at the IDE faculty
 This project aims to design the hardware and software architecture of a wireless sensor network, which allows the acquisition of environmental variables of interest for decision making in the production of plants in greenhouses.
 
 Extended descrption and idea: https://hackmd.io/VwhOI_90Qdu8P9mFhpcCZQ
-
-## Tensile tester
-... 
-
-## Antibike theft device
-...
