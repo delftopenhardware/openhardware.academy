@@ -1,0 +1,1 @@
+### This file shows that markdown (or any non yml file) get ignored in the rendering of the page, so you can safely add ancillary files or markdown notes to the folder without worrying about errors.

@@ -1,0 +1,22 @@
+title: ApeExpress
+description: Monkey on the CAR! 
+intended-use: Kids these days will recognise themselves in this video and learn to improve their ways
+keywords:
+  - trains
+  - transportation
+development-stage: product
+development-plans: More trains to be bought and tested.
+project-link: https://www.youtube.com/watch?v=_RW_fIWuG2c
+image: https://i.ytimg.com/vi/_RW_fIWuG2c/hqdefault.jpg
+license:
+  hardware: GPL-3.0-only
+licensor:
+  name: Nemo Andrea
+okh-manifest-version: 1.0.0
+date-created: 2022-09-23
+manifest-author:
+  name: Nemo Andrea
+contact:
+  social:
+    - platform: twitter
+      user-handle: cursed_tubule
