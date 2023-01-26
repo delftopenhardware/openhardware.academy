@@ -38,7 +38,7 @@
         // Have alook at the baseURL to find the repo and have a look at the structure there
         async function loadPage(){
             // get information about what years are listed in the repo
-            let years =  fetch(baseURL+"/partitipant-projects")
+            let years =  fetch(baseURL+"/participant-projects")
                 .then(response => response.json())
                 .then(data => {
                     return data
