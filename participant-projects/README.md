@@ -18,7 +18,22 @@ We also use the following practices
 * Avoid listing email address of participant for spam concerns. If the participant wants to be contacted that info will/should be present on their project page.
 * The `licensor` is used as the display name rather than the manifest-author. In almost all cases these will be the same anyway.
 
-A minimal example of fields that should be present is listed below
+> **warning** 
+>
+> The example file below contains the **minimal** contents a config file should have
+
+```yml
+title: project-title
+description: "1-3 lines of project description. If more details are required, consider putting in intended-use"
+intended-use: "more depth about the project and use. No length restriction. Leave as EMPTY STRING if you don't want it to show up on the page."
+development-plans: "Describe the future plan for the project. No length restriction. Leave as EMPTY STRING if you don't want it to show up on the page."
+project-link: https://github.com/NemoAndrea/SpotiStation
+image: https://raw.githubusercontent.com/NemoAndrea/SpotiStation/main/media/banner.png
+licensor:
+  name: Nemo Andrea
+```
+
+The example below is a little bit more elaborate; some of these fields are currently not used but might be nice to have for future expansion/functionality.
 
 ```yml
 title: SpotiStation
@@ -55,6 +70,8 @@ contact:
     - platform: twitter
       user-handle: cursed_tubule
 ```
+
+
 
 ### External libraries
 
