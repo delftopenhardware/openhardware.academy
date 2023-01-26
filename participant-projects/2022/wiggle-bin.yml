@@ -1,0 +1,23 @@
+title: Wiggle bin
+description: "A smart vermicomposting bin which makes both worms and humans happy! Vermicomposters have worms that help you make compost, but maintaining a worm bin is not without complications, this tackles some of these challenges."
+keywords:
+  - worms
+  - worm hotel
+  - compost
+
+development-stage: released
+development-plans: ""
+project-link: https://github.com/studiorabota/wiggle-bin
+image: https://raw.githubusercontent.com/studiorabota/wiggle-bin/main/Images/WiggleBinV001/Box/WiggleBinPrototype001_Complete.jpg
+license:
+  hardware: CERN-OHL-S
+licensor:
+  name: Vincent Kranendonk
+okh-manifest-version: 1.0.0
+date-created: 2022-09-23
+manifest-author:
+  name: Vincent Kranendonk
+contact:
+  social:
+    - platform: LinkedIn
+      user-handle: vkranendonk
