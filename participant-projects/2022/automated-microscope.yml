@@ -1,18 +1,14 @@
 title: Automated microscope
-description: "This project started from a desire to improve medical diagnosis in rural communities of low-income countries. In order to contribute in this direction, we decided to design and build a microscopy platform with certain relevant characteristics. We went for microscopy, given its simplicity, versatility, and widespread applications."
-# intended-use: "The design is focussed on being accessible to people with physical and
-#   cognitive disabilities by use of few and large buttons and simple UI. It
-#   should allow anyone to enjoy music without supervision."
+description: "This project started from a desire to improve medical diagnosis in rural communities of low-income countries."
+intended-use: "In order to contribute in this direction, we decided to design and build a microscopy
+ platform with certain relevant characteristics. We went for microscopy, given its simplicity, 
+ versatility, and widespread applications."
 keywords:
   - research
   - microscope
   - automated
 development-stage: released
-development-plans: "The project has had an initial release, with some ‘field testing’ to boot.
-  The hardware and software are functional, if a little rough around some of the edges. 
-  Certainly areas to improve on, but none that require immediate attention. All the design
-  files and code are available for reproduction - provided you have basic (electronics) tinkering
-  skills."
+development-plans: ""
 project-link: https://github.com/jossoca/OHA_micro
 image: https://raw.githubusercontent.com/jossoca/OHA_micro/main/Imgs/micro.jpeg
 license:

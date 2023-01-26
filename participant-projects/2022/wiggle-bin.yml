@@ -1,10 +1,10 @@
 title: Wiggle bin
 description: "A smart vermicomposting bin which makes both worms and humans happy! Vermicomposters have worms that help you make compost, but maintaining a worm bin is not without complications, this tackles some of these challenges."
+intended-use: ""
 keywords:
   - worms
   - worm hotel
   - compost
-
 development-stage: released
 development-plans: ""
 project-link: https://github.com/studiorabota/wiggle-bin

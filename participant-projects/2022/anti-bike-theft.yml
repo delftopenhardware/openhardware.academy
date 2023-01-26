@@ -1,8 +1,8 @@
 title: Anti bike theft device
-description: "SAfter having your bike stolen multiple times, you want to prevent your bike from being stolen with this anti theft device, as soon as it moves italarms, if it is stolen you can track it through the lora network with the GPS signal!"
-# intended-use: "The design is focussed on being accessible to people with physical and
-#   cognitive disabilities by use of few and large buttons and simple UI. It
-#   should allow anyone to enjoy music without supervision."
+description: "Lora network-based GPS bike locator & bike alarm."
+intended-use: "After having your bike stolen multiple times, you want to prevent your bike from
+ being stolen with this anti theft device, as soon as it moves italarms, if it is stolen you can
+  track it through the lora network with the GPS signal!"
 keywords:
   - spotify
   - 3D-printing
@@ -10,11 +10,7 @@ keywords:
   - accessibility
   - music
 development-stage: released
-development-plans: "The project has had an initial release, with some ‘field testing’ to boot.
-  The hardware and software are functional, if a little rough around some of the edges. 
-  Certainly areas to improve on, but none that require immediate attention. All the design
-  files and code are available for reproduction - provided you have basic (electronics) tinkering
-  skills."
+development-plans: ""
 project-link: https://github.com/nanaminh/anti-theft
 image: https://i.imgur.com/eMUdNva.jpg
 license:
