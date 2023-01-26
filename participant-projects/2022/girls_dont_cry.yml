@@ -1,0 +1,22 @@
+title: Girls dont cry
+description: A nice track by Thuy
+intended-use: Tracks to listen to when in a good mood.
+keywords:
+  - music
+  - thuy
+development-stage: released
+development-plans: Listen to all her tracks!
+project-link: https://www.youtube.com/watch?v=43wIsMMTUZo
+image: https://img.youtube.com/vi/43wIsMMTUZo/0.jpg
+license:
+  hardware: GPL-3.0-only
+licensor:
+  name: Thuy
+okh-manifest-version: 1.0.0
+date-created: 2022-09-23
+manifest-author:
+  name: Thuy
+contact:
+  social:
+    - platform: twitter
+      user-handle: cursed_tubule

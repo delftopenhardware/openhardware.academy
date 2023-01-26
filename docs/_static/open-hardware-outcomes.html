@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OHA outcomes</title>
+    <link rel="stylesheet" href="open-hardware-outcomes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="OHA-year-selector">Waiting for data from GitHub...</div>
+    <div id="focused-outcome"></div>
+    <div id="OHA-outcomes"></div>
+    <script src="js-yaml.min.js"></script>
+	<script>
+        let yearSelector = document.querySelector("#OHA-year-selector")
+        let focusPanel = document.querySelector("#focused-outcome")
+        let outcomePanel = document.querySelector("#OHA-outcomes")
+
+        // GitHub repository path that will be used to fetch the OHA outcomes
+        const baseURL = 'https://api.github.com/repos/delftopenhardware/openhardware.academy/contents'
+
+        // emit an event to parent frame (relevant if used in iframe)
+        const resizeObserver = new ResizeObserver((entries) => {
+            for (const entry of entries) {
+                // emit event every time we resize body (when cards load in)
+                // why +5px? dunno
+                window.top.postMessage({type: "iframe-height-info", height: entry.contentRect.height + 5 + 'px'}, "*");
+            }
+        });
+        resizeObserver.observe(document.body)
+        
+
+        // Start by making a call to the GitHub API and find the years listed in the demo repostiory.
+        // Have alook at the baseURL to find the repo and have a look at the structure there
+        async function loadPage(){
+            // get information about what years are listed in the repo
+            let years =  fetch(baseURL+"/partitipant-projects")
+                .then(response => response.json())
+                .then(data => {
+                    return data
+                });
+
+            // years is a promise, so we do something with it when its loaded            
+            years.then((folderEntries) => { // process the year information
+                yearSelector.replaceChildren();  // clear placeholder text
+                for (const [index, entry] of folderEntries.reverse().entries()) {  // we reverse to handle newest year first
+                    // folder may contain markdown, so we only do something with directories (e.g. [2022])
+                    if (entry.type === "dir") {
+                        // the first entry corresponds to the newest year, which we want to display by default
+                        if (index === 1) {
+                            processYear(entry, true)
+                        } else{
+                            processYear(entry, false)
+                        }                        
+                    } else {
+                        console.log("ignoring the following item (not a year folder):")
+                        console.log(entry.name)
+                    }                    
+                }                
+            })
+        }
+
+        // each year has its own folder, containing yaml files for each project
+        // we add a button to the page that a user can click to load that year
+        // we do not load all years immediately, as that would require a lot of API calls and
+        // eventually lead to problems (in 10 years time)
+        async function processYear(year, shouldSelect) {
+            // first we add a 'year button' to the year-selector element, so the user can click it
+            let yearbutton = document.createElement("button");
+            yearbutton.textContent  = year.name;  // set the button text            
+            yearSelector.appendChild(yearbutton);
+
+            // we also add a div to the outcome entries, one for each year (but we only show
+            // one at a time)
+            let entriesEl = document.createElement("div");
+            entriesEl.id = `OHA-outcomes-${year.name}`;
+            entriesEl.classList.add("OHA-outcomes-year-box")
+            outcomePanel.appendChild(entriesEl);
+            
+            // make button clickable
+            yearbutton.onclick = () => loadOutcomes(year, entriesEl);
+            if (shouldSelect) { yearbutton.click() }         
+        }
+
+
+        // fetch the outcomes for a single year.
+        // We then need to add it to the page (create the HTML element) but also parse and
+        // extract the page info.
+        async function loadOutcomes(year, entriesEl) {
+            // we hide all other years, and only show the clicked year
+            hideEntries(); // hide all years
+            entriesEl.style.display = 'grid';  // show this year's entries again
+
+            // if the entries for this year are empty, we should load the info, but if we laoded
+            // it in a previous API call we should just reuse that (no action needed). 
+
+            if (entriesEl.childNodes.length === 0) {  // entries not yet loaded, we should call API
+                // then we fetch new outcomes
+                let outcomes =  fetch(baseURL + year.path)
+                .then(response => response.json())
+                .then(data => {
+                    return data
+                    });
+
+                outcomes.then((outcomes) => {
+                    console.log("loading the following outcomes:")
+                    for (outcome of outcomes) {
+                        if (outcome.name.split('.').pop() === "yml") {
+                            console.log(" - " + outcome.name)
+                            processOutcome(outcome, entriesEl)
+                        }  else {
+                            console.log("and ignoring (not YAML):")
+                            console.log(" - " + outcome.name)
+                        }
+                    }
+                })
+            }             
+        }
+
+
+        async function processOutcome(outcome, entriesEl) {
+            let contents =  fetch(outcome.download_url)
+                .then(response => {
+                    let contents = response.text()
+                    contents.then((textcontent) => {
+
+                    // parse the textcontents to extract image, title and oneline summary
+                    let outcomeData = parseOutcomeString(textcontent)
+
+                    // create the card elements
+                    let cardImg = document.createElement("img");
+                    cardImg.src=outcomeData.image;
+                    let outcomeCardWrapper = document.createElement("div");
+                    outcomeCardWrapper.classList.add("OHA-outcome");
+                    let outcomeCard = document.createElement("div");
+                    let cardHeader = document.createElement("div");
+                    cardHeader.classList.add("OHA-card-header")
+                    cardHeader.innerHTML = outcomeData.title + "✨";
+                    let cardContents = document.createElement("div");
+                    cardContents.innerHTML = outcomeData.description
+                    cardContents.classList.add("OHA-card-contents")
+
+                    outcomeCard.appendChild(cardImg)
+                    outcomeCard.appendChild(cardHeader)
+                    outcomeCard.appendChild(cardContents)
+                    
+                    // set up click event (highlight the card)
+                    outcomeCardWrapper.onclick = () => {focusHighlight(outcomeData); outcomePanel.classList.add("faded")};
+                    
+                    outcomeCardWrapper.appendChild(outcomeCard)
+                    entriesEl.appendChild(outcomeCardWrapper)
+                    });
+                })
+        }
+
+        // extract useful information from the contents of the .yml file
+        // and return it as an object; i.e. {key:value, key:value}
+        // we use the js-yaml library 4.1.0 (https://github.com/nodeca/js-yaml) for parsing 
+        function parseOutcomeString(outcomeString) {
+            return jsyaml.load(outcomeString);
+        }
+
+        // function that builds an 'expanded card' when a project is clicked
+        function focusHighlight(outcomeData) {
+            focusPanel.replaceChildren() // clear any existing expanded card.
+            focusPanel.style.display = "block" // make it visible
+            
+            console.log(`Showing detail page for outcome: ${outcomeData.title}`)
+            let focusCard = document.createElement("div");
+            focusCard.classList.add("OHA-outcome-big", "OHA-outcome")
+
+            // banner image
+            let cardImg = document.createElement("img");
+            cardImg.src=outcomeData.image;
+
+            // header
+            let cardHeader = document.createElement("div");
+            cardHeader.classList.add("OHA-card-header")
+            cardHeader.innerHTML = outcomeData.title + "✨";
+
+            // details
+            let cardContents = document.createElement("div");  // set up a big div to dump stuff in
+            cardContents.classList.add("OHA-card-contents")
+
+            let projectAuthor = document.createElement("p")
+            projectAuthor.classList.add("participant-name");
+            projectAuthor.innerHTML = `by <span>${outcomeData.licensor.name}</span>`
+            cardContents.appendChild(projectAuthor)            
+
+            let projectDescription = document.createElement("p");
+            projectDescription.innerHTML = outcomeData.description
+            cardContents.appendChild(projectDescription)
+
+            let headingIntendedUse = document.createElement("h3");
+            headingIntendedUse.innerHTML = "Intended Use"
+            cardContents.appendChild(headingIntendedUse)
+
+            let projectIntendedUse = document.createElement("p");
+            projectIntendedUse.innerHTML = outcomeData["intended-use"]
+            cardContents.appendChild(projectIntendedUse)
+
+            let headingDevelopmentPlan = document.createElement("h3");
+            headingDevelopmentPlan.innerHTML = "Future development plans"
+            cardContents.appendChild(headingDevelopmentPlan)
+
+            let projectDevelopment = document.createElement("p");
+            projectDevelopment.innerHTML = outcomeData["development-plans"]
+            cardContents.appendChild(projectDevelopment)
+
+            // homepage and close button
+            let homepagebutton = document.createElement("button");
+            homepagebutton.innerText  = "Project Homepage"
+            homepagebutton.onclick = () => { window.open(outcomeData["project-link"], "_blank")}
+
+            let closebutton = document.createElement("button");
+            closebutton.innerText  = "Close"
+            // clear parent el (and thereby this detail view card) and remove faded class from the normal small cards
+            closebutton.onclick = () => { 
+                focusPanel.style.display = "none"  // hide element again
+                focusPanel.replaceChildren();
+                outcomePanel.classList.remove("faded");
+            } 
+    
+            focusCard.appendChild(cardImg)
+            focusCard.appendChild(cardHeader)
+            focusCard.appendChild(cardContents)
+            focusCard.appendChild(homepagebutton)
+            focusCard.appendChild(closebutton)            
+
+            focusPanel.appendChild(focusCard)
+            focusPanel.scrollIntoView({behavior: "smooth"})
+        }
+
+        // utility function, abstracted behind this function to make code more readable
+        function hideEntries() {
+            // get the children of outcomePanel, which are divs containing the entries for a single year
+            let entries = outcomePanel.childNodes; 
+            for (entry of entries) {
+                entry.style.display = 'none'
+            }
+        }
+
+        loadPage()  // populate the page by calling the loadPage() function
+
+        function toggleFullscreen() {
+            let elem = document.querySelector("video");
+
+            if (!document.fullscreenElement) {
+                elem.requestFullscreen().catch((err) => {
+                alert(`Error attempting to enable fullscreen mode: ${err.message} (${err.name})`);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+    </script>
+  </body>
+</html>

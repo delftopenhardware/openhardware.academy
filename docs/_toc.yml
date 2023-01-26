@@ -1,9 +1,12 @@
 root: 01_Welcome
 entries:
 - file: 02_Programme_details
-- file: 03_Participation
-- file: 04_Partner_up
-- file: 05_Organizers
-- file: 06_Background
-- file: 07_Sample_Lessons
+- file: 03_Lessons
+- file: 04_Participation
+- file: 05_Contribute
+- file: 06_Partner_Organizations
+- file: 07_Background
+- file: 08_Code_of_Conduct
+- file: 09_Organizers
+- file: 10_Projects
 
