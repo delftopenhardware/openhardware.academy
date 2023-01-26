@@ -15,10 +15,10 @@ project-link: https://repository.tudelft.nl/islandora/object/uuid:e12d9789-5c51-
 image: https://d2k0ddhflgrk1i.cloudfront.net/Thema/Plastic%20injection%20molding%20machine.jpg
 # license:
 #   hardware: 
-# licensor:
-#   name: 
-# okh-manifest-version: 1.0.0
-# date-created: 2022-09-23
+licensor: Joost Dommisse
+  name: 
+okh-manifest-version: 1.0.0
+date-created: 2022-09-23
 manifest-author:
   name: Joost Dommisse
 # contact:
