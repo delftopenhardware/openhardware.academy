@@ -13,8 +13,8 @@ development-plans: "The project has had an initial release, with some ‘field t
   skills."
 project-link: https://repository.tudelft.nl/islandora/object/uuid:e12d9789-5c51-4570-8a5f-32570c501ba9?collection=education
 image: https://d2k0ddhflgrk1i.cloudfront.net/Thema/Plastic%20injection%20molding%20machine.jpg
-# license:
-#   hardware: 
+license:
+  hardware: 
 licensor: Joost Dommisse
   name: 
 okh-manifest-version: 1.0.0
