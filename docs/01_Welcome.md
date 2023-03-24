@@ -5,6 +5,15 @@
 :align: center
 :width: 90%
 ```
+Great news! We are kicking of our self paced edition of the Open Hardware Academy! With this new step we aim to make it more accessible, sustainable and open for everyone to join at any time. Don't miss our introductory video to know all about it. For more details on how it works go to the [Getting started self-paced](./06_Self_paced.md) section.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/TLef1ZGSr_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+```{panels}
+
+```{panels}
+
+
+---
 ```{Note}
 The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact.
 ```
