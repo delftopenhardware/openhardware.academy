@@ -15,9 +15,9 @@ Hey there! Welcome to the self-paced edition of the OpenHardware Academy. We're 
 ## Self paced approach
 - **Make a simple hackmd page** where you collect the exercises by copy pasting them from the lessons and writing them down there as well as your result. **This will be your little openhardware academy journal.** You can also provide links, comments and discuss things there.
 
-:::info
-:information_source: Why hackmd and not word, or my prefered note taking tools? Markdown is widely use for documentation of software and hardware, and hackmd allows to share notes easily and freely online using markdown. It will make life easy for everybody in the program, trust us :smile: 
-:::
+```{Note}
+Why hackmd and not word, or my prefered note taking tools? Markdown is widely use for documentation of software and hardware, and hackmd allows to share notes easily and freely online using markdown. It will make life easy for everybody in the program, trust us :smile: 
+```
 
 - The core of the program is to exercise, therefore we encourage you to focus more on doing the exercises than anything else.
 

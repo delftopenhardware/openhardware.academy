@@ -1,9 +1,9 @@
 ```{Note}
-The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact. You can also comment at the end of this page. :point_down:
+The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact. You can also comment at the end of this page.
 
 ```
 
-# Participation 
+# How to participate
 ![hardware illustration](img/jpg/banner_2.jpg)
 
 ```{admonition} Our first call has closed
@@ -43,5 +43,8 @@ Make sure you read the [programme details](02_Programme_details.md)
 ```
 If it is not clear enough and you have other questions [contact us](./05_Organizers.md)
 Or leave us a comment bellow at the end of the page
+
+## Sign up for self paced edition
+<iframe src="https://tudelft.fra1.qualtrics.com/jfe/form/SV_bqQwjOZHOtB4j1I" height="800px" width="100%"></iframe>
 
 
