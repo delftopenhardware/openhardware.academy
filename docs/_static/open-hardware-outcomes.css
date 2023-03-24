@@ -1,0 +1,141 @@
+:root {
+    --cell-width: 388px;
+    --cell-gap: 12px;
+}
+
+body {
+    background-color: #fafafa;
+    margin: 0
+}
+
+#OHA-year-selector {
+    width: auto;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-family: 'Lilita One', cursive;
+    color: darkgray;
+    filter: drop-shadow(-1.5px 3px 0 black);
+}
+
+#OHA-year-selector button, .OHA-outcome-big button{
+    padding: 10px 39px;
+    border-radius: 30px;
+    margin: 0 0.3em;
+    font-size: 1.2rem;
+    background-color: paleturquoise;
+    font-weight: bold;
+}
+
+.OHA-outcome-big button {
+    margin: 10px
+}
+
+#OHA-year-selector button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.OHA-outcome-big button:hover {
+    cursor: pointer;
+    background-color: palevioletred;
+}
+
+.OHA-card-header {
+    font-family: 'Modak', cursive;
+    font-size: 1.6em;
+    padding:14px;
+    padding-bottom: 3px;
+}
+
+.OHA-card-contents {
+    padding: 14px;
+    padding-top: 0;
+}
+
+.OHA-outcome {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:2px;
+    transition: 0.2s ease-in-out;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    background-color: white;
+}
+
+.OHA-outcome:hover {
+    transform: translateY(-12px);
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.OHA-outcome img {
+    width:100%;
+    border-bottom: 2px solid black;    
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.OHA-outcome-big img {
+    max-height: 40vh;
+}
+
+.OHA-outcomes-year-box {
+    margin: auto;
+    display: grid;
+    grid-gap: var(--cell-gap);
+    max-width: calc(var(--cell-width)*3 + var(--cell-gap)*2);
+    grid-template-columns: repeat(auto-fill, minmax(var(--cell-width), max-content));
+    justify-content: center;
+}
+
+#focused-outcome {
+    margin-bottom: 12px;  
+    padding-top: 20px;
+    display: none;
+}
+
+.OHA-outcome-big {
+    max-width: calc(var(--cell-width)*3 + var(--cell-gap)*2);
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+.OHA-outcome-big:hover {
+    transform: translateY(0);
+}
+
+.faded {
+    pointer-events: none;
+    opacity: 0.1;
+}
+
+.participant-name {
+    font-size: 1.2em;
+    color: palevioletred;
+    margin-top: 0;
+}
+
+.participant-name span {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    #OHA-logo {
+        width: 35vw;
+        margin:15px;
+        border: solid black 3px;
+    }
+    
+    .OHA-outcome {
+        margin: 0 30px;
+    }
+
+    .OHA-outcome-big {
+        margin: 0 30px;
+    }
+}
