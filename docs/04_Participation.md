@@ -1,15 +1,5 @@
-```{Note}
-The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact. You can also comment at the end of this page.
-
-```
-
 # How to participate
 ![hardware illustration](img/jpg/banner_2.jpg)
-
-```{admonition} Our first call has closed
-:class: warning
-## Our call for applications has been closed on Friday 5th of August 2022 
-```
 
 ## Who can participate?
 No matter if you are working on a small or a big project, joining the Open Hardware Academy helps you to understand the mechanics of open and collaborative working. In the 10 weeks you will learn about project management, documentation, community building, prototyping and licenses. By the way, did we tell you it’s free?
