@@ -5,8 +5,9 @@
 :align: center
 :width: 90%
 ``` -->
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/TLef1ZGSr_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Stay tune for the next edition in 2023!
+Great news! We are kicking of our self paced edition of the Open Hardware Academy! With this new step we aim to make it more accessible, sustainable and open for everyone to join at any time. Check our introductory video to know all about it 👆. For more details on how it works go to the [Getting started self-paced](./01_X_Selfpaced.md) section.
 
 ## What is the Open Hardware Academy?
 
