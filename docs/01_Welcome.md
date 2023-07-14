@@ -20,7 +20,7 @@ We have designed the lessons in such a way that you can do them in your own time
 We have also developed complementary technical lessons to develop your skills in the field of open hardware.
 
 
-**[👉 Pre-launch seminar](https://www.youtube.com/watch?v=wkpVgo1fIpA)**
+**[👉 Pre-launch seminar for the 1st edition](https://www.youtube.com/watch?v=wkpVgo1fIpA)**
 
 ```{panels}
 :container: +full-width text-center
