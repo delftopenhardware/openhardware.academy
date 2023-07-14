@@ -6,11 +6,13 @@
 :width: 90%
 ``` -->
 
-## Stay tune for the next edition in 2023!
 
 ## What is the Open Hardware Academy?
 
 The Open Hardware Academy is originally conceived as a 10-week program that helps you to develop your own open hardware project. In the 10 weeks participants have learned about project management, documentation, community building, prototyping and licenses for open hardware among other topics. **By the way, did we tell you it’s free?**
+
+👉 Sign up for the [next edition](./04_Participation.md)
+
 
 ---
 Take a look at our [main lessons](./03_Lessons.md) with exercises.
