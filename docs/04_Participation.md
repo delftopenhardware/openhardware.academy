@@ -34,7 +34,7 @@ Make sure you read the [programme details](02_Programme_details.md)
 If it is not clear enough and you have other questions [contact us](./05_Organizers.md)
 Or leave us a comment bellow at the end of the page
 
-## Sign up for self paced edition
-<iframe src="https://tudelft.fra1.qualtrics.com/jfe/form/SV_bqQwjOZHOtB4j1I" height="800px" width="100%"></iframe>
+## Sign up for the 2nd Edition of the Open Hardware Academy
+<iframe src="https://tudelft.fra1.qualtrics.com/jfe/form/SV_2aaTWzxeis6z7ka" height="800px" width="100%"></iframe>
 
 
