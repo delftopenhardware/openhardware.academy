@@ -7,8 +7,7 @@ No matter if you are working on a small or a big project, joining the Open Hardw
 ```{admonition} Do you have a prototype that works already?
 - **If yes**, then you are in a good situation to take it to next level. Making it more robust, and openning it to get feedback from others can help you advanced further.
 ---
-- **If no** We have collected some examples to get you inspired.
-👉 [Read more about the examples](./02_Programme_details.md)
+- **If no** We have a [set of challenges](https://jurra.github.io/openhardware.academy/01_Welcome.html#work-on-a-challenge) you can develop and contribute to. Some of the challenges are fairly new projects, while other projects are more mature and need help to get to the next level. 
 ```
 
 ### These are our only entry requirements:
