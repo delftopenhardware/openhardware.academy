@@ -59,6 +59,7 @@ We suggest you to have a short list of 5 to 3 challenges that you feel can be a 
 - [Designing an open-hardware rotor balancer](https://docs.google.com/document/d/1dZ7bJelzAygmlrr3ej8G_UCUg1WHHc6R5NpqHxLrjKk/edit)
 - [SONY-Spresense Open Hardware Challenge](https://docs.google.com/document/d/1nt5LLvU_BePQEVG-Zkp5u8ke0oQyU4XcrDo-a8XQBrs/edit)
 - [FietsGuard - An anti-theft device mounted on a bike](https://docs.google.com/document/d/1bARYbfxAnglkRn6j-BtIPSggS9vIDs8eYFDqST0y0a8/edit)
+- [Blind Distance Feedback](https://docs.google.com/document/d/1wcja1C4l4SwtgYRD_99qW7twHSFu0zLovg147UmJTso/edit)
 
 ## Contact information
 
