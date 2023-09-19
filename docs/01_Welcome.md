@@ -63,6 +63,13 @@ We suggest you to have a short list of 5 to 3 challenges that you feel can be a 
 - [Open Portable Oxygen Concentrator](https://docs.google.com/document/d/1T4MBivtxJhPzLVNghta2LZFzyGVJjabVt649_a6LaYs/edit)
 - [Solar Desalination - Process control with ESP32](https://docs.google.com/document/d/1hjMLiujZHO4uaf1BWmtY5O3Y-EC3x7oOxGmgZHRAPNE/edit)
 
+## Official partners
+- [Delft University of Technology](https://www.tudelft.nl/)
+- [Open Hardware Association](https://www.oshwa.org/)
+- [Delft Open Hardware Group](https://www.tudelft.nl/open-hardware)
+- [Delft Open Science Program](https://www.tudelft.nl/en/open-science)
+- [TU Delft Digital Competence Center](https://www.tudelft.nl/library/library-voor-onderzoekers/library-voor-onderzoekers/onderzoek-starten/dcc)
+
 ## Contact information
 
 If something is unclear or if you have questions please email: j.devos-2@tudelft.nl
