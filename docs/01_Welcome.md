@@ -60,6 +60,8 @@ We suggest you to have a short list of 5 to 3 challenges that you feel can be a 
 - [SONY-Spresense Open Hardware Challenge](https://docs.google.com/document/d/1nt5LLvU_BePQEVG-Zkp5u8ke0oQyU4XcrDo-a8XQBrs/edit)
 - [FietsGuard - An anti-theft device mounted on a bike](https://docs.google.com/document/d/1bARYbfxAnglkRn6j-BtIPSggS9vIDs8eYFDqST0y0a8/edit)
 - [Blind Distance Feedback](https://docs.google.com/document/d/1wcja1C4l4SwtgYRD_99qW7twHSFu0zLovg147UmJTso/edit)
+- [Open Portable Oxygen Concentrator](https://docs.google.com/document/d/1T4MBivtxJhPzLVNghta2LZFzyGVJjabVt649_a6LaYs/edit)
+- [Solar Desalination - Process control with ESP32](https://docs.google.com/document/d/1hjMLiujZHO4uaf1BWmtY5O3Y-EC3x7oOxGmgZHRAPNE/edit)
 
 ## Contact information
 
