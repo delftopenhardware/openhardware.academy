@@ -5,7 +5,7 @@
 :align: center
 :width: 90%
 ``` -->
-The Second Edition of the Open Hardware Academy is starting on the 29th of September. Join us for an action packet 10-week program that will help you develop your own open hardware project. The academy has been developed to provide participants with the necessary support and know-how to develop and publish their open hardware project. During the program you will learn about project management, documentation, community building, prototyping, as well licences for open hardware among other topics. By the way, did we mention that it is completely free ?
+The Second Edition of the Open Hardware Academy is starting on the 29th of September. Join us for an action-packed 10-week program that will help you develop your own open hardware project. The academy has been developed to provide participants with the necessary support and know-how to develop and publish their open hardware project. During the program you will learn about project management, documentation, community building, prototyping, as well licences for open hardware among other topics. By the way, did we mention that it is completely free ?
 
 ### What's new in the 2nd edition:
 - This time participants can join with their own project or choose a challenge proposed by the openhardware.academy community. For those that want to learn how to work open source but don't have a suitable project or prototype this could a nice option to contribute to existing initiatives.
