@@ -1,0 +1,514 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Hardware Academy 🚀 &#8212; Open Hardware Academy</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/open-hardware-outcomes.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/auto-resize-iframe-outcomes.js"></script>
+    <script src="_static/js-yaml.min.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "delftopenhardware/openhardware.academy");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Programme details" href="02_Programme_details.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Open Hardware Academy</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1 current">
+  <a class="reference internal" href="#">
+   Open Hardware Academy 🚀
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="02_Programme_details.html">
+   Programme details
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03_Lessons.html">
+   Basic Lessons
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04_Participation.html">
+   How to participate
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05_Contribute.html">
+   Contribute
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06_Partner_Organizations.html">
+   Partner up as an organization
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07_Background.html">
+   Background and motivation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="08_Code_of_Conduct.html">
+   Code of Conduct
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09_Organizers.html">
+   Organizers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10_Projects.html">
+   Cohort Projects
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/01_Welcome.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/delftopenhardware/openhardware.academy"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        <a class="edit-button" href="https://github.com/delftopenhardware/openhardware.academy/edit/master/docs/01_Welcome.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-s-new-in-the-2nd-edition">
+   What’s new in the 2nd edition:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#work-on-a-challenge">
+   Work on a challenge
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#available-challenges">
+     Available challenges
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#list-of-challenge-names">
+       List of challenge names
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#official-partners">
+   Official partners
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contact-information">
+   Contact information
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Open Hardware Academy 🚀</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-s-new-in-the-2nd-edition">
+   What’s new in the 2nd edition:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#work-on-a-challenge">
+   Work on a challenge
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#available-challenges">
+     Available challenges
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#list-of-challenge-names">
+       List of challenge names
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#official-partners">
+   Official partners
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contact-information">
+   Contact information
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="open-hardware-academy">
+<h1>Open Hardware Academy 🚀<a class="headerlink" href="#open-hardware-academy" title="Permalink to this headline">¶</a></h1>
+<!-- ```{image} img/jpg/banner.jpg
+:alt: hardware illustration
+:align: center
+:width: 90%
+``` -->
+<p>The Second Edition of the Open Hardware Academy is starting on the 29th of September. Join us for an action-packed 10-week program that will help you develop your own open hardware project. The academy has been developed to provide participants with the necessary support and know-how to develop and publish their open hardware project. During the program you will learn about project management, documentation, community building, prototyping, as well licences for open hardware among other topics. By the way, did we mention that it is completely free ?</p>
+<div class="section" id="what-s-new-in-the-2nd-edition">
+<h2>What’s new in the 2nd edition:<a class="headerlink" href="#what-s-new-in-the-2nd-edition" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This time participants can join with their own project or choose a challenge proposed by the openhardware.academy community. For those that want to learn how to work open source but don’t have a suitable project or prototype this could a nice option to contribute to existing initiatives.</p></li>
+<li><p>A refined curriculum that has been updated based on feedback from participants</p></li>
+<li><p>Opportunity to interact with open hardware experts including past participants to benefit from their experience as well</p></li>
+</ul>
+<p>👉 <strong><a class="reference external" href="./04_Participation#sign-up-for-the-2nd-edition-of-the-open-hardware-academy-2023">Sign up for the next edition</a> starting on September, 29th, 2023</strong></p>
+<!-- ## What is the Open Hardware Academy?
+
+The Open Hardware Academy is originally conceived as a 10-week program that helps you to develop your own open hardware project. In the 10 weeks participants have learned about project management, documentation, community building, prototyping and licenses for open hardware among other topics. **By the way, did we tell you it’s free?**
+
+
+
+---  -->
+<p>Take a look at our <a class="reference internal" href="03_Lessons.html"><span class="doc std std-doc">main lessons</span></a> with exercises.</p>
+<p>We have designed the lessons in such a way that you can do them in your own time.</p>
+<p>We have also developed complementary technical lessons to develop your skills in the field of open hardware.</p>
+<p><strong><a class="reference external" href="https://www.youtube.com/watch?v=wkpVgo1fIpA">👉 Pre-launch seminar for the 1st edition</a></strong></p>
+<div class="sphinx-bs container pb-4 full-width text-center docutils">
+<div class="row docutils">
+<div class="d-flex col-lg-6 px-2 py-2 docutils">
+<div class="card w-100 shadow docutils">
+<div class="card-body docutils">
+<p class="card-text"><strong><a class="reference internal" href="02_Programme_details.html"><span class="doc std std-doc">🔎 Programme details</span></a></strong></p>
+</div>
+</div>
+</div>
+<div class="d-flex col-lg-6 px-2 py-2 docutils">
+<div class="card w-100 shadow docutils">
+<div class="card-body docutils">
+<p class="card-text"><strong><a class="reference internal" href="04_Participation.html"><span class="doc std std-doc">👉 How to join</span></a></strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="work-on-a-challenge">
+<h2>Work on a challenge<a class="headerlink" href="#work-on-a-challenge" title="Permalink to this headline">¶</a></h2>
+<p><strong>To onboard you in our academy it is good enough for us to know that you would like to work on a challenge.</strong></p>
+<p>We suggest you to have a short list of 5 to 3 challenges that you feel can be a good fit for you. Once you are onboarded in the program and you have a better understanding of the challenges you can choose one to work on. We expect this to happen in the first two weeks of the program. There might be an opportunity to for example join a team, or that several people work on the same challenge.</p>
+<div class="section" id="available-challenges">
+<h3>Available challenges<a class="headerlink" href="#available-challenges" title="Permalink to this headline">¶</a></h3>
+<p>(More challenges are coming in as we speak!)</p>
+<ul class="simple">
+<li><p>Google folder with all challenges <a class="reference external" href="https://drive.google.com/drive/folders/15tlpbMs80l-8kIuzdbt-h4lj4KzBFadW">here</a></p></li>
+</ul>
+<div class="section" id="list-of-challenge-names">
+<h4>List of challenge names<a class="headerlink" href="#list-of-challenge-names" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.google.com/document/d/15w7udvruEpHY5o-p7Ppm_-zskGpzJsnTySIWPqLy7Kg/edit">EARLY FOREST FIRE DETECTION</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/11AsOtpym9cxpLr7Ks5CozLSrPRR68S8XhA8xJdTy3WM/edit">WiggleBin: Run bio experiments with Raspberry PI HQ camera + tracking and analysis tools</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1fuuUHY6MZa03Pm-uVUkLuP_o3lA5nRFtg6YaSfUm0N4/edit">Controlling laser scanner via an ESP32 </a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1Oo6VcdLNtlRJ1YiVwb5yxx4AIypvnbU_AUtSK9v3X94/edit">Designing a PCB motor for a laser scanner</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1dZ7bJelzAygmlrr3ej8G_UCUg1WHHc6R5NpqHxLrjKk/edit">Designing an open-hardware rotor balancer</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1nt5LLvU_BePQEVG-Zkp5u8ke0oQyU4XcrDo-a8XQBrs/edit">SONY-Spresense Open Hardware Challenge</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1bARYbfxAnglkRn6j-BtIPSggS9vIDs8eYFDqST0y0a8/edit">FietsGuard - An anti-theft device mounted on a bike</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1wcja1C4l4SwtgYRD_99qW7twHSFu0zLovg147UmJTso/edit">Blind Distance Feedback</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1T4MBivtxJhPzLVNghta2LZFzyGVJjabVt649_a6LaYs/edit">Open Portable Oxygen Concentrator</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1hjMLiujZHO4uaf1BWmtY5O3Y-EC3x7oOxGmgZHRAPNE/edit">Solar Desalination - Process control with ESP32</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="official-partners">
+<h2>Official partners<a class="headerlink" href="#official-partners" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tudelft.nl/">Delft University of Technology</a></p></li>
+<li><p><a class="reference external" href="https://www.oshwa.org/">Open Hardware Association</a></p></li>
+<li><p><a class="reference external" href="https://www.tudelft.nl/open-hardware">Delft Open Hardware Group</a></p></li>
+<li><p><a class="reference external" href="https://www.tudelft.nl/en/open-science">Delft Open Science Program</a></p></li>
+<li><p><a class="reference external" href="https://www.tudelft.nl/library/library-voor-onderzoekers/library-voor-onderzoekers/onderzoek-starten/dcc">TU Delft Digital Competence Center</a></p></li>
+</ul>
+</div>
+<div class="section" id="contact-information">
+<h2>Contact information<a class="headerlink" href="#contact-information" title="Permalink to this headline">¶</a></h2>
+<p>If something is unclear or if you have questions please email: <a class="reference external" href="mailto:j&#46;devos-2&#37;&#52;&#48;tudelft&#46;nl">j<span>&#46;</span>devos-2<span>&#64;</span>tudelft<span>&#46;</span>nl</a></p>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="02_Programme_details.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Programme details</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Open Hardware Academy<br/>
+    
+      <div class="extra_footer">
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+      </div>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
