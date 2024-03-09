@@ -22,10 +22,11 @@ When you design for open source you adopt an iterative and progressive approach.
 ^^^
 Even if you can't join the 10 weeks programme, it is setup in such a way that you can still join the community chat and use part of the content of the programme, or do the exercises in a different time.
 ---
+
 **Designed with trainers in mind 📓**
 ^^^
-
 Are you an instructor or teacher and have local needs? We know your schedule might not fit ours. But you can reuse the materials and participate in the design of new lessons. [Read more](./04_Partner_up.md)
+---
 
 **Challenge and project focused ✏️**
 ^^^

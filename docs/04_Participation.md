@@ -1,15 +1,5 @@
-```{Note}
-The first cohort of the open hardware academy from 8th of August until the 14th of October 2022. We are working on a new edition where we allow a self paced and more flexible approach. If you are interested in participating in the next edition, please get in contact. You can also comment at the end of this page. :point_down:
-
-```
-
-# Participation 
+# How to participate
 ![hardware illustration](img/jpg/banner_2.jpg)
-
-```{admonition} Our first call has closed
-:class: warning
-## Our call for applications has been closed on Friday 5th of August 2022 
-```
 
 ## Who can participate?
 No matter if you are working on a small or a big project, joining the Open Hardware Academy helps you to understand the mechanics of open and collaborative working. In the 10 weeks you will learn about project management, documentation, community building, prototyping and licenses. By the way, did we tell you it’s free?
@@ -17,8 +7,7 @@ No matter if you are working on a small or a big project, joining the Open Hardw
 ```{admonition} Do you have a prototype that works already?
 - **If yes**, then you are in a good situation to take it to next level. Making it more robust, and openning it to get feedback from others can help you advanced further.
 ---
-- **If no** We have collected some examples to get you inspired.
-👉 [Read more about the examples](./02_Programme_details.md)
+- **If no** We have a [set of challenges](https://jurra.github.io/openhardware.academy/01_Welcome.html#work-on-a-challenge) you can develop and contribute to. Some of the challenges are fairly new projects, while other projects are more mature and need help to get to the next level. 
 ```
 
 ### These are our only entry requirements:
@@ -43,5 +32,8 @@ Make sure you read the [programme details](02_Programme_details.md)
 ```
 If it is not clear enough and you have other questions [contact us](./05_Organizers.md)
 Or leave us a comment bellow at the end of the page
+
+## Sign up for the 2nd Edition of the Open Hardware Academy 2023
+<iframe src="https://tudelft.fra1.qualtrics.com/jfe/form/SV_2aaTWzxeis6z7ka" height="800px" width="100%"></iframe>
 
 
