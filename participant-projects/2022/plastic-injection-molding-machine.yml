@@ -1,5 +1,7 @@
 title: Plastic injection molding machine
-description: "The plastic injection molding machine by Joost Dommisse is an improved design based on the experience of the community. It solves many of the challenges with the V2 version of the injection machine, and incorporates a framework for others to implement future upgrades."
+description: "The plastic injection molding machine by Joost Dommisse is an improved design based
+ on the experience of the community. It solves many of the challenges with the V2 version of the 
+ injection machine, and incorporates a framework for others to implement future upgrades."
 intended-use: ""
 keywords:
   - Plastic
@@ -17,7 +19,4 @@ licensor:
 # date-created: 2022-09-23
 manifest-author:
   name: Joost Dommisse
-# contact:
-#   social:
-#     - platform: twitter
-#       user-handle: cursed_tubule
+  
