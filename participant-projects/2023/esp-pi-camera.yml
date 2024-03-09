@@ -1,0 +1,8 @@
+title: ESP-Pi vision project
+description: "This project consists in hardware and software for capturing images through a camera and a simple board and transfering these photos to a board with higher computational power for further operations." 
+development-plans: "It is an initial step for a more advanced project of object recognition for application in projects such as robots or other devices."
+intended-use: ""
+project-link: https://github.com/fabioschuh/image_capture
+image: https://predictabledesigns.com/wp-content/uploads/2022/02/a-close-up-of-a-circuit-board-description-automat.jpeg
+licensor:
+  name: Fabio Schuh

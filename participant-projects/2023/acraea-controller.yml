@@ -1,0 +1,26 @@
+title: Acraea Control using an ESP32
+description: "ESP32 microcontroller, Temperature and humidity sensor, Ultrasonic sensor,
+  pumps, relay"
+intended-use: "Program to monitor and control the flow of seawater through Acraea. Acraea is
+  a an open source small scale solar desalination and water purifier prototype.
+  This plant takes heat as input on one side and uses it to boil sea water. This
+  water is then collected on the other side through condensation and allowed to
+  flow out of the system as potable water."
+keywords:
+  - Water Purification
+  - ESP32
+development-plans: The project is being actively developed. We are adding cloud based logging as a feature to continously monitor the performance. We are also migrating the codebase to use environment.
+project-link: https://github.com/shantnavagarwal/Acraea_Controller
+made: true
+made-independently: false
+license:
+  documentation: GPL-3.0-or-later
+  software: GPL-3.0-or-later
+licensor:
+  name: S Agarwal
+okh-manifest-version: 1.0.0
+date-created: 2023-12-07
+date-updated: 2023-12-07
+manifest-author:
+  name: S Agarwal
+  email: shantnavagarwal@gmail.com

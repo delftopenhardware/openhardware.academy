@@ -113,8 +113,7 @@
                             console.log(" - " + outcome.name)
                             processOutcome(outcome, entriesEl)
                         }  else {
-                            console.log("and ignoring (not YAML):")
-                            console.log(" - " + outcome.name)
+                            console.log("[ignoring non-YAML file]: " + outcome.name)
                         }
                     }
                 })
@@ -195,21 +194,27 @@
             projectDescription.innerHTML = outcomeData.description
             cardContents.appendChild(projectDescription)
 
-            let headingIntendedUse = document.createElement("h3");
-            headingIntendedUse.innerHTML = "Intended Use"
-            cardContents.appendChild(headingIntendedUse)
+            // these fields may be left as empty strings in the .yml files
+            if (!outcomeData["intended-use"].trim().length !== 0) {
+                let headingIntendedUse = document.createElement("h3");
+                headingIntendedUse.innerHTML = "Intended Use"
+                cardContents.appendChild(headingIntendedUse)
 
-            let projectIntendedUse = document.createElement("p");
-            projectIntendedUse.innerHTML = outcomeData["intended-use"]
-            cardContents.appendChild(projectIntendedUse)
+                let projectIntendedUse = document.createElement("p");
+                projectIntendedUse.innerHTML = outcomeData["intended-use"]
+                cardContents.appendChild(projectIntendedUse)
+            }
 
-            let headingDevelopmentPlan = document.createElement("h3");
-            headingDevelopmentPlan.innerHTML = "Future development plans"
-            cardContents.appendChild(headingDevelopmentPlan)
+            // these fields may be left as empty strings in the .yml files
+            if (outcomeData["development-plans"].trim().length !== 0) {
+                let headingDevelopmentPlan = document.createElement("h3");
+                headingDevelopmentPlan.innerHTML = "Future development plans"
+                cardContents.appendChild(headingDevelopmentPlan)
 
-            let projectDevelopment = document.createElement("p");
-            projectDevelopment.innerHTML = outcomeData["development-plans"]
-            cardContents.appendChild(projectDevelopment)
+                let projectDevelopment = document.createElement("p");
+                projectDevelopment.innerHTML = outcomeData["development-plans"]
+                cardContents.appendChild(projectDevelopment)
+            }
 
             // homepage and close button
             let homepagebutton = document.createElement("button");

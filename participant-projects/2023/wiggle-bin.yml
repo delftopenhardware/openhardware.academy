@@ -1,0 +1,26 @@
+title: WiggleBin
+description: "WiggleBin is an open-source, intelligent vermicomposting bin that
+  not only nurtures the well-being of worms but also brings joy to their human
+  caretakers"
+intended-use: Monitoring a vermicomposting bin
+development-plans: "The project is currently in the prototyping phase. The
+  development plan is to create a stable version of the hardware and software
+  and to test it in a real-life environment. Eventual goal is to release a Raspberry Pi Image and a PCB design."
+keywords:
+  - composting
+  - raspberry pi
+project-link: https://wigglebin.gitbook.io
+image: https://raw.githubusercontent.com/wiggle-bin/wiggle-r/main/Images/WiggleRBasicSetup.jpg
+made: true
+made-independently: true
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: GPL-3.0-or-later
+  software: GPL-3.0-or-later
+licensor:
+  name: Kranendonk, V
+okh-manifest-version: 1.0.0
+date-updated: 2024-02-25
+manifest-author:
+  name: Vincent Kranendonk
+  email: okh@studiorabota.com
